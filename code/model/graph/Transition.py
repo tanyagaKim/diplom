@@ -1,11 +1,8 @@
-from Option import Option
-
-
 class Transition:
     def __init__(self, status, next_status, options=None):
         self.status = str
         self.next_status = str
-        self.options = Option or None
+        self.options = list
 
         self.status = status
         self.next_status = next_status
